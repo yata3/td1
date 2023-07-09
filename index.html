@@ -1,0 +1,44 @@
+<div>
+<table id=formul class="table">
+<tr>
+<form action="" method="post">
+<td><label for="nom">Nom</label></td>
+<td><input type="text" id="nom" name="nom" placeholder="" required></td>
+</tr>
+<tr>
+<td><label for="nom">Prénom</label></td>
+<td><input type="text" id="prenom" name="prenom" placeholder="" required></td></th>
+</tr>
+<tr>
+<td><label for="email">Votre e-mail</label></td>
+<td><input type="email" id="email" name="email" placeholder="monadresse@mail.com" required></td>
+</tr>
+<tr>
+<td><label for="telNo">Numéro de téléphone</label></td>
+<td><input type="tel" id="num" name="phone" maxlength="10" pattern="^0[1-7]\d{8}$" required>
+<span class="validity"></span></td>
+</tr>
+<tr>
+<td><label for="date">Date d'envoi</label></td>
+<td><input type="date" id="date" name="date" value="2022-03-10" min="2020-01-01" max="2050-12-31" required></td>
+</tr>
+<tr>
+<td><label for="sujet">Sujet du problème</label></td>
+<td><select name="sujet" id="sujet" required>
+<option value="" disabled selected hidden>Choisissez</option>
+<option value="probleme">Problème avec mon compte</option>
+<option value="question">Question à propos du service</option>
+<option value="contact">Comment vous contacter</option>
+<option value="autre">Autre...</option>
+</select>
+</td>
+</tr>
+<tr>
+<td><label for="message">Message</label></td>
+<td><textarea id="message" name="message" placeholder="Bonjour, je vous contacte pour...." required></textarea></td>
+</td>
+<tr>
+<td><button type="submit">Envoyer mon message</button></td>
+</tr>
+</form>
+</div>

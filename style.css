@@ -1,0 +1,22 @@
+div {
+font-size: x-large;
+font-family: Verdana;
+border: 1px solid black;
+color: red
+}
+h2 {
+  border: 1px solid black;
+  padding: 5px;
+  color: green;
+  font-family: Verdana, Arial, 
+}
+
+span.att {
+  word-wrap: break-word;
+  margin:3px;
+  background:yellow
+}
+  
+body {
+  background-color: #FFEBCD
+}
